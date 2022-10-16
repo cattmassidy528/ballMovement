@@ -51,7 +51,7 @@ function moveBall() {
 
     var display = document.getElementById("display")
     display.style.opacity = 50 + '%'
-    display.innerHTML = "Hello World" + "<br>" + "Hello World" + "<br>" + "Hello World" + "<br>" + "Hello World" + "<br>"+ "Hello World" + "<br>" + "Hello World" + "<br>"
+    display.innerHTML = "Hello World" + "<br>" +  "Hello World" + "<br>"+ "Hello World" + "<br>" + "Hello World" + "<br>"
     
     if (!reverse) {
         positionX = positionX + velocity
